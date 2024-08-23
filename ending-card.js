@@ -1,4 +1,4 @@
-if (false) {
+if (true) {
     document.getElementById("badEnd").style.display = 'none';
 } else {
     document.getElementById("goodEnd").style.display = 'none';
