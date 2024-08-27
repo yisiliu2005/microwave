@@ -1,3 +1,7 @@
-export let mscore;
+let conclusion = document.getElementById('conclusion');
+conclusion.style.display = 'none';
 
-mscore = 9;
+
+import {scores} from '../shared.js';
+scores.microwave = 9;
+console.log(scores.microwave);
